@@ -1,6 +1,6 @@
 # Coleção de dados das escolas de Pelotas
-Modelagem de um Banco de Dados (BD) MongDB contendo as escolas de Pelotas-RS. Objetivo desse trabalho é desenvolver aplicações futuras através
-dos dados disponibilizados pelos orgãos públicos.
+Modelagem de um Banco de Dados (BD) MongoDB contendo as escolas de Pelotas-RS. Objetivo desse trabalho é modelar um BD com todas as informações sobre as escolas
+da cidade de Pelotas com finalidade de melhorar a disponibilidade dessas informações para aplicações futuras.
 
 ## Fontes dos *datasets*:
 
