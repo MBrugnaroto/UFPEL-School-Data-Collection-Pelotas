@@ -45,7 +45,30 @@ client = pymongo.MongoClient("mongodb://USUARIO:PASSWORD@criedata-shard-00-00.ur
 Comando para acesso as *collections*:
 - As seguintes *collections* estão disponíveis: *dataINEPSchools* (dados provindos do banco de dados do INEP)
 <pre>
-db = client.schoolData;
-collection = db.dataINEPSchools;
-collection.find_one();
+<code>db = client.schoolData;<\code>
+<code>collection = db.dataINEPSchools;<\code>
+<code>collection.find_one();<\code>
 </pre>
+
+## Estrutura dos dados na *collection* (JSON):
+
+<pre><code>{'_id': ObjectId(''),
+ 'Restrição de Atendimento': '',
+ 'Escola': '',
+ 'Código INEP': ,
+ 'UF': '',
+ 'Município': '',
+ 'Localização': '',
+ 'Localidade Diferenciada': '',
+ 'Categoria Administrativa': '',
+ 'Endereço': '',
+ 'Telefone': '',
+ 'Dependência Administrativa': '',
+ 'Categoria Escola Privada': '',
+ 'Conveniada Poder Público': '',
+ 'Regulamentação pelo Conselho de Educação': '',
+ 'Porte da Escola': '',
+ 'Etapas e Modalidade de Ensino Oferecidas': '',
+ 'Outras Ofertas Educacionais': ,
+ 'Latitude': ,
+ 'Longitude': }<\code></pre>
