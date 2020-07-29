@@ -1,4 +1,6 @@
 # Coleção de dados das escolas de Pelotas
+Modelagem de um Banco de Dados (BD) MongDB contendo as escolas de Pelotas-RS. Objetivo desse trabalho é desenvolver aplicações futuras através
+dos dados disponibilizados pelos orgãos públicos.
 
 ## Fontes dos *datasets*:
 
@@ -32,7 +34,7 @@
         | Latitude  | 198 | 104 |
         | Longitude  | 198 | 104 |
 
-## Conexão com o banco de dados (BD):
+## Conexão com o BD:
 O BD foi hospedado na plataforma da [mLab](https://mlab.com/) (*Database-as-a-Service for MongoDB*) por conta da navegabilidade, segurança, automatização em núvem e disponibilidade de 500mb de armazenamento grátis.
 
 Comando para conexão com o *client*:
