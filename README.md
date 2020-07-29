@@ -38,7 +38,7 @@ O BD foi hospedado na plataforma da [mLab](https://mlab.com/) (*Database-as-a-Se
 Comando para conexão com o *client*:
 - Os seguintes bancos de dados estão disponíveis nessa conexão: *schoolData* (utilizado para armazenar informações sobre as escolas de Pelotas)
 <pre>
-client = pymongo.MongoClient("mongodb://admin:PASSWORD@criedata-shard-00-00.urzuu.mongodb.net:27017,criedata-shard-00-01.urzuu.mongodb.net:27017,criedata-shard-00-02.urzuu.mongodb.net:27017/<dbname>?ssl=true&replicaSet=atlas-6db9id-shard-0&authSource=admin&retryWrites=true&w=majority");
+client = pymongo.MongoClient("mongodb://USUARIO:PASSWORD@criedata-shard-00-00.urzuu.mongodb.net:27017,criedata-shard-00-01.urzuu.mongodb.net:27017,criedata-shard-00-02.urzuu.mongodb.net:27017/<dbname>?ssl=true&replicaSet=atlas-6db9id-shard-0&authSource=admin&retryWrites=true&w=majority");
 </pre>
 
 Comando para acesso as *collections*:
