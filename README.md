@@ -3,8 +3,9 @@ Dados coletados do INEP e do Portal Transparência da cidade de Pelotas contendo
 
 ## Fontes dos *datasets*:
 
-* **INEP:** [Oracle BI Interactive Dashboards](https://inepdata.inep.gov.br/analytics/saw.dll?dashboard&NQUser=inepdata&NQPassword=Inep2014&PortalPath=%2Fshared%2FCenso%20da%20Educa%C3%A7%C3%A3o%20B%C3%A1sica%2F_portal%2FCat%C3%A1logo%20de%20Escolas)<br>
-
+* **INEP:** 
+    * [Oracle BI Interactive Dashboards](https://inepdata.inep.gov.br/analytics/saw.dll?dashboard&NQUser=inepdata&NQPassword=Inep2014&PortalPath=%2Fshared%2FCenso%20da%20Educa%C3%A7%C3%A3o%20B%C3%A1sica%2F_portal%2FCat%C3%A1logo%20de%20Escolas)<br>
+    * [Indicadores Educacionais](http://inep.gov.br/web/guest/indicadores-educacionais)
 * **Portal Pelotas:** [Portal de dados de Pelotas](http://www.pelotas.com.br/portal-de-dados)
 
 ## *Datasets*:
