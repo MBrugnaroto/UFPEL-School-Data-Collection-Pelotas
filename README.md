@@ -40,17 +40,13 @@ Dados coletados do INEP e do Portal Transparência da cidade de Pelotas contendo
         * Quantidade de informações de cada escola: 23
         * Estrutura dos dados inseridos no Banco de Dados (BSON):
          <pre>
-         <code>'Média de Alunos por Turma': 
-            {
+         <code>'Média de Alunos por Turma': {
                'Última atualização': 2019.0,
-               'Educação Infantil': 
-                  {
+               'Educação Infantil': {
                      'Total': '--', 
                      'Creche': '--', 
-                     'Pré-Escola': '--'
-                  },
-               'Ensino Fundamental 8 e 9 anos': 
-                  {
+                     'Pré-Escola': '--'},
+               'Ensino Fundamental 8 e 9 anos': {
                      'Total': '--',
                      'Anos Iniciais': '--',
                      'Anos Finais': '--',
@@ -63,17 +59,15 @@ Dados coletados do INEP e do Portal Transparência da cidade de Pelotas contendo
                      '7º Ano': '--',
                      '8º Ano': '--',
                      '9º Ano': '--',
-                     'Turmas Multietapa, Multi ou Correção de Fluxo 2': '--'
-                   },
-               'Ensino Médio': 
-                  {
+                     'Turmas Multietapa, Multi ou Correção de Fluxo 2': '--'},
+               'Ensino Médio': {
                      'Total': 26.6,
                      '1ª série': 25,
                      '2ª série': 26,
                      '3ª série': 30,
                      '4ª série': '--',
-                     'Não-Seriado': '--'}}
-          </pre>
+                     'Não-Seriado': '--'}}</code>
+               </pre>
 ## Conexão com o BD:
 O BD foi hospedado na plataforma da [mLab](https://mlab.com/) (*Database-as-a-Service for MongoDB*) por conta da navegabilidade, segurança, automatização em núvem e disponibilidade de 500mb de armazenamento grátis.
 
