@@ -1,5 +1,5 @@
 # Coleção de dados das escolas de Pelotas
-Dados coletados do INEP e do Portal Transparência da cidade de Pelotas contendo informações sobre as escolas da cidade de Pelotas-RS. Esse projeto tem como o intuito de realizar, posteriormente a coleta dos dados, análises sobre o ensino nas escolas e disponibiliza-las de forma estruturada, visível e clara.
+Dados coletados do INEP e do Portal Transparência da cidade de Pelotas contendo informações sobre as escolas da cidade de Pelotas-RS. Esse projeto tem como o intuito de realizar, posteriormente a coleta dos dados, análises sobre o ensino nas escolas e disponibiliza-las de forma estruturada, visível e clara. 
 
 ## Fontes dos *datasets*:
 
@@ -8,31 +8,72 @@ Dados coletados do INEP e do Portal Transparência da cidade de Pelotas contendo
 * **Portal Pelotas:** [Portal de dados de Pelotas](http://www.pelotas.com.br/portal-de-dados)
 
 ## *Datasets*:
- * dataINEP:
-    * Número de escolas registradas: 302
-    * Quantidade de informações de cada escola: 19
-      * | Informação        | Número de registros não nulos        | Número de registros nulos        |
-        | ------------- |:-------------:|:-------------:|
-        | Restrição de Atendimento | 302 | 0 |
-        | Escola  | 302 | 0 |
-        | Código INEP  | 302 | 0 |
-        | UF  | 302 | 0 |
-        | Município  | 302 | 0 |
-        | Localização  | 302 | 0 |
-        | Localidade Diferenciada  | 302 | 0 |
-        | Categoria Administrativa  | 302 | 0 |
-        | Endereço  | 302 | 0 |
-        | Telefone  | 292 | 10 |
-        | Dependência Administrativa | 302 | 0 |
-        | Categoria Escola Privada  | 302 | 0 |
-        | Conveniada Poder Público  | 302 | 0 |
-        | Regulamentação pelo Conselho de Educação  | 239 | 63 |
-        | Porte da Escola  | 239 | 63 |
-        | Etapas e Modalidade de Ensino Oferecidas  | 236 | 66 |
-        | Outras Ofertas Educacionais  | 90 | 212 |
-        | Latitude  | 198 | 104 |
-        | Longitude  | 198 | 104 |
-
+* **INEP:**
+   * InformaçõesGeraisDasEscolas:
+       * Número de escolas registradas: 302.
+       * Quantidade de informações de cada escola: 19.
+       * Estrutura dos dados inseridos no Banco de Dados (BSON):
+         <pre>
+         <code>{'_id': ObjectId(''),
+          'Restrição de Atendimento': '',
+          'Escola': '',
+          'Código INEP': ,
+          'UF': '',
+          'Município': '',
+          'Localização': '',
+          'Localidade Diferenciada': '',
+          'Categoria Administrativa': '',
+          'Endereço': '',
+          'Telefone': '',
+          'Dependência Administrativa': '',
+          'Categoria Escola Privada': '',
+          'Conveniada Poder Público': '',
+          'Regulamentação pelo Conselho de Educação': '',
+          'Porte da Escola': '',
+          'Etapas e Modalidade de Ensino Oferecidas': '',
+          'Outras Ofertas Educacionais': ,
+          'Latitude': ,
+          'Longitude': }</code>
+          </pre>
+   * MediaDeAlunosPorTurma:
+        * Número de escolas registradas: 222
+        * Quantidade de informações de cada escola: 23
+        * Estrutura dos dados inseridos no Banco de Dados (BSON):
+         <pre>
+         <code>'Média de Alunos por Turma': 
+            {
+               'Última atualização': 2019.0,
+               'Educação Infantil': 
+                  {
+                     'Total': '--', 
+                     'Creche': '--', 
+                     'Pré-Escola': '--'
+                  },
+               'Ensino Fundamental 8 e 9 anos': 
+                  {
+                     'Total': '--',
+                     'Anos Iniciais': '--',
+                     'Anos Finais': '--',
+                     '1º Ano': '--',
+                     '2º Ano': '--',
+                     '3º Ano': '--',
+                     '4º Ano': '--',
+                     '5º Ano': '--',
+                     '6º Ano': '--',
+                     '7º Ano': '--',
+                     '8º Ano': '--',
+                     '9º Ano': '--',
+                     'Turmas Multietapa, Multi ou Correção de Fluxo 2': '--'
+                   },
+               'Ensino Médio': 
+                  {
+                     'Total': 26.6,
+                     '1ª série': 25,
+                     '2ª série': 26,
+                     '3ª série': 30,
+                     '4ª série': '--',
+                     'Não-Seriado': '--'}}
+          </pre>
 ## Conexão com o BD:
 O BD foi hospedado na plataforma da [mLab](https://mlab.com/) (*Database-as-a-Service for MongoDB*) por conta da navegabilidade, segurança, automatização em núvem e disponibilidade de 500mb de armazenamento grátis.
 
@@ -50,27 +91,4 @@ Comando para acesso as *collections*:
 <code>collection.find_one();</code>
 </pre>
 
-## Estrutura dos dados na *collection* (JSON):
 
-<pre>
-<code>{'_id': ObjectId(''),
- 'Restrição de Atendimento': '',
- 'Escola': '',
- 'Código INEP': ,
- 'UF': '',
- 'Município': '',
- 'Localização': '',
- 'Localidade Diferenciada': '',
- 'Categoria Administrativa': '',
- 'Endereço': '',
- 'Telefone': '',
- 'Dependência Administrativa': '',
- 'Categoria Escola Privada': '',
- 'Conveniada Poder Público': '',
- 'Regulamentação pelo Conselho de Educação': '',
- 'Porte da Escola': '',
- 'Etapas e Modalidade de Ensino Oferecidas': '',
- 'Outras Ofertas Educacionais': ,
- 'Latitude': ,
- 'Longitude': }</code>
- </pre>
