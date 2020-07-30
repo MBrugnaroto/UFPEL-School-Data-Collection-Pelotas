@@ -41,32 +41,32 @@ Dados coletados do INEP e do Portal Transparência da cidade de Pelotas contendo
         * Estrutura dos dados inseridos no Banco de Dados (BSON):
          <pre>
          <code>'Média de Alunos por Turma': {
-               'Última atualização': 2019.0,
-               'Educação Infantil': {
-                     'Total': '--', 
-                     'Creche': '--', 
-                     'Pré-Escola': '--'},
-               'Ensino Fundamental 8 e 9 anos': {
-                     'Total': '--',
-                     'Anos Iniciais': '--',
-                     'Anos Finais': '--',
-                     '1º Ano': '--',
-                     '2º Ano': '--',
-                     '3º Ano': '--',
-                     '4º Ano': '--',
-                     '5º Ano': '--',
-                     '6º Ano': '--',
-                     '7º Ano': '--',
-                     '8º Ano': '--',
-                     '9º Ano': '--',
-                     'Turmas Multietapa, Multi ou Correção de Fluxo 2': '--'},
-               'Ensino Médio': {
-                     'Total': 26.6,
-                     '1ª série': 25,
-                     '2ª série': 26,
-                     '3ª série': 30,
-                     '4ª série': '--',
-                     'Não-Seriado': '--'}}</code>
+               &nbsp;&nbsp;'Última atualização': 2019.0,
+               &nbsp;&nbsp;'Educação Infantil': {
+               &nbsp;&nbsp;&nbsp;&nbsp;'Total': '--', 
+               &nbsp;&nbsp;&nbsp;&nbsp;'Creche': '--', 
+               &nbsp;&nbsp;&nbsp;&nbsp;'Pré-Escola': '--'},
+               &nbsp;&nbsp;'Ensino Fundamental 8 e 9 anos': {
+               &nbsp;&nbsp;&nbsp;&nbsp;'Total': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'Anos Iniciais': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'Anos Finais': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'1º Ano': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'2º Ano': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'3º Ano': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'4º Ano': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'5º Ano': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'6º Ano': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'7º Ano': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'8º Ano': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'9º Ano': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'Turmas Multietapa, Multi ou Correção de Fluxo 2': '--'},
+               &nbsp;&nbsp;'Ensino Médio': {
+               &nbsp;&nbsp;&nbsp;&nbsp;'Total': 26.6,
+               &nbsp;&nbsp;&nbsp;&nbsp;'1ª série': 25,
+               &nbsp;&nbsp;&nbsp;&nbsp;'2ª série': 26,
+               &nbsp;&nbsp;&nbsp;&nbsp;'3ª série': 30,
+               &nbsp;&nbsp;&nbsp;&nbsp;'4ª série': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'Não-Seriado': '--'}}</code>
                </pre>
 ## Conexão com o BD:
 O BD foi hospedado na plataforma da [mLab](https://mlab.com/) (*Database-as-a-Service for MongoDB*) por conta da navegabilidade, segurança, automatização em núvem e disponibilidade de 500mb de armazenamento grátis.
