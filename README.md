@@ -10,6 +10,7 @@ Dados coletados do INEP e do Portal Transparência da cidade de Pelotas contendo
 ## *Datasets*:
 * **INEP:**
    * InformaçõesGeraisDasEscolas:
+       * **OBS:** Através da ferramenta Oracle BI do INEP, foi filtrado as escolas de Pelotas e realizado o *download* do *dataset*, assim, não sendo necessário o *download* do *dataset* completo contendo todas as escolas registradadas.
        * Número de escolas registradas: 302.
        * Quantidade de informações de cada escola: 19.
        * Estrutura dos dados inseridos no Banco de Dados (BSON):
@@ -35,9 +36,10 @@ Dados coletados do INEP e do Portal Transparência da cidade de Pelotas contendo
           'Latitude': ,
           'Longitude': }</code>
           </pre>
-   * MediaDeAlunosPorTurma:
-        * Número de escolas registradas: 222
-        * Quantidade de informações de cada escola: 23
+    * MediaDeAlunosPorTurma:
+        * Número de escolas registradas: 176.386.
+        * Número de escolas de Pelotas registradas: 228.
+        * Quantidade de informações de cada escola: 31
         * Estrutura dos dados inseridos no Banco de Dados (BSON):
          <pre>
          <code>'Média de Alunos por Turma': {
@@ -68,6 +70,40 @@ Dados coletados do INEP e do Portal Transparência da cidade de Pelotas contendo
                &nbsp;&nbsp;&nbsp;&nbsp;'4ª série': '--',
                &nbsp;&nbsp;&nbsp;&nbsp;'Não-Seriado': '--'}}</code>
                </pre>
+    * InformaçõesGeraisDasEscolas:
+        * Número de escolas registradas: 152.509.
+        * Número de escolas de Pelotas registradas: 224.
+        * Quantidade de informações de cada escola: 30.
+        * Estrutura dos dados inseridos no Banco de Dados (BSON):
+        <pre>
+         <code>'Média Horas-Aula diárias': {
+               &nbsp;&nbsp;'Última atualização': 2019.0,
+               &nbsp;&nbsp;'Educação Infantil': {
+               &nbsp;&nbsp;&nbsp;&nbsp;'Total': '--', 
+               &nbsp;&nbsp;&nbsp;&nbsp;'Creche': '--', 
+               &nbsp;&nbsp;&nbsp;&nbsp;'Pré-Escola': '--'},
+               &nbsp;&nbsp;'Ensino Fundamental 8 e 9 anos': {
+               &nbsp;&nbsp;&nbsp;&nbsp;'Total': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'Anos Iniciais': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'Anos Finais': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'1º Ano': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'2º Ano': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'3º Ano': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'4º Ano': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'5º Ano': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'6º Ano': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'7º Ano': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'8º Ano': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'9º Ano': '--',
+               &nbsp;&nbsp;'Ensino Médio': {
+               &nbsp;&nbsp;&nbsp;&nbsp;'Total': 26.6,
+               &nbsp;&nbsp;&nbsp;&nbsp;'1ª série': 25,
+               &nbsp;&nbsp;&nbsp;&nbsp;'2ª série': 26,
+               &nbsp;&nbsp;&nbsp;&nbsp;'3ª série': 30,
+               &nbsp;&nbsp;&nbsp;&nbsp;'4ª série': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'Não-Seriado': '--'}}</code>
+               </pre>
+        
 ## Conexão com o BD:
 O BD foi hospedado na plataforma da [mLab](https://mlab.com/) (*Database-as-a-Service for MongoDB*) por conta da navegabilidade, segurança, automatização em núvem e disponibilidade de 500mb de armazenamento grátis.
 
