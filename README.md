@@ -33,9 +33,9 @@ Dados coletados do INEP e do Portal Transparência da cidade de Pelotas contendo
           'Regulamentação pelo Conselho de Educação': '',
           'Porte da Escola': '',
           'Etapas e Modalidade de Ensino Oferecidas': '',
-          'Outras Ofertas Educacionais': ,
-          'Latitude': ,
-          'Longitude': }</code>
+          'Outras Ofertas Educacionais': '',
+          'Latitude': '',
+          'Longitude': ''}</code>
           </pre>
     * MediaDeAlunosPorTurma:
         * Número de escolas registradas: 176.386.
@@ -44,32 +44,32 @@ Dados coletados do INEP e do Portal Transparência da cidade de Pelotas contendo
         * Estrutura dos dados inseridos no Banco de Dados (BSON):
          <pre>
          <code>'Média de Alunos por Turma': {
-               &nbsp;&nbsp;'Última atualização': 2019.0,
+               &nbsp;&nbsp;'Última atualização': '',
                &nbsp;&nbsp;'Educação Infantil': {
-               &nbsp;&nbsp;&nbsp;&nbsp;'Total': '--', 
-               &nbsp;&nbsp;&nbsp;&nbsp;'Creche': '--', 
-               &nbsp;&nbsp;&nbsp;&nbsp;'Pré-Escola': '--'},
+               &nbsp;&nbsp;&nbsp;&nbsp;'Total': '', 
+               &nbsp;&nbsp;&nbsp;&nbsp;'Creche': '', 
+               &nbsp;&nbsp;&nbsp;&nbsp;'Pré-Escola': ''},
                &nbsp;&nbsp;'Ensino Fundamental 8 e 9 anos': {
-               &nbsp;&nbsp;&nbsp;&nbsp;'Total': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'Anos Iniciais': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'Anos Finais': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'1º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'2º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'3º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'4º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'5º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'6º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'7º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'8º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'9º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'Turmas Multietapa, Multi ou Correção de Fluxo 2': '--'},
+               &nbsp;&nbsp;&nbsp;&nbsp;'Total': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'Anos Iniciais': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'Anos Finais': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'1º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'2º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'3º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'4º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'5º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'6º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'7º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'8º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'9º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'Turmas Multietapa, Multi ou Correção de Fluxo 2': ''},
                &nbsp;&nbsp;'Ensino Médio': {
-               &nbsp;&nbsp;&nbsp;&nbsp;'Total': 26.6,
-               &nbsp;&nbsp;&nbsp;&nbsp;'1ª série': 25,
-               &nbsp;&nbsp;&nbsp;&nbsp;'2ª série': 26,
-               &nbsp;&nbsp;&nbsp;&nbsp;'3ª série': 30,
-               &nbsp;&nbsp;&nbsp;&nbsp;'4ª série': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'Não-Seriado': '--'}}</code>
+               &nbsp;&nbsp;&nbsp;&nbsp;'Total': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'1ª série': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'2ª série': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'3ª série': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'4ª série': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'Não-Seriado': ''}}</code>
                </pre>
     * MediaHorasAulaDiarias:
         * Número de escolas registradas: 152.509.
@@ -78,31 +78,31 @@ Dados coletados do INEP e do Portal Transparência da cidade de Pelotas contendo
         * Estrutura dos dados inseridos no Banco de Dados (BSON):
         <pre>
          <code>'Média Horas-Aula diárias': {
-               &nbsp;&nbsp;'Última atualização': 2019.0,
+               &nbsp;&nbsp;'Última atualização': '',
                &nbsp;&nbsp;'Educação Infantil': {
-               &nbsp;&nbsp;&nbsp;&nbsp;'Total': '--', 
-               &nbsp;&nbsp;&nbsp;&nbsp;'Creche': '--', 
-               &nbsp;&nbsp;&nbsp;&nbsp;'Pré-Escola': '--'},
+               &nbsp;&nbsp;&nbsp;&nbsp;'Total': '', 
+               &nbsp;&nbsp;&nbsp;&nbsp;'Creche': '', 
+               &nbsp;&nbsp;&nbsp;&nbsp;'Pré-Escola': ''},
                &nbsp;&nbsp;'Ensino Fundamental 8 e 9 anos': {
-               &nbsp;&nbsp;&nbsp;&nbsp;'Total': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'Anos Iniciais': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'Anos Finais': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'1º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'2º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'3º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'4º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'5º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'6º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'7º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'8º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'9º Ano': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'Total': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'Anos Iniciais': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'Anos Finais': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'1º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'2º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'3º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'4º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'5º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'6º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'7º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'8º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'9º Ano': '',
                &nbsp;&nbsp;'Ensino Médio': {
-               &nbsp;&nbsp;&nbsp;&nbsp;'Total': 26.6,
-               &nbsp;&nbsp;&nbsp;&nbsp;'1ª série': 25,
-               &nbsp;&nbsp;&nbsp;&nbsp;'2ª série': 26,
-               &nbsp;&nbsp;&nbsp;&nbsp;'3ª série': 30,
-               &nbsp;&nbsp;&nbsp;&nbsp;'4ª série': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'Não-Seriado': '--'}}</code>
+               &nbsp;&nbsp;&nbsp;&nbsp;'Total': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'1ª série': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'2ª série': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'3ª série': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'4ª série': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'Não-Seriado': ''}}</code>
                </pre>
    * TaxaDistorcaoIdadeSerie:
         * Número de escolas registradas: 132.428.
@@ -111,98 +111,126 @@ Dados coletados do INEP e do Portal Transparência da cidade de Pelotas contendo
         * Estrutura dos dados inseridos no Banco de Dados (BSON):
         <pre>
          <code>'Taxa de distorção de idade-série por turma': {
-               &nbsp;&nbsp;'Última atualização': 2019.0,
+               &nbsp;&nbsp;'Última atualização': '',
                &nbsp;&nbsp;'Ensino Fundamental 8 e 9 anos': {
-               &nbsp;&nbsp;&nbsp;&nbsp;'Total': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'Anos Iniciais': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'Anos Finais': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'1º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'2º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'3º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'4º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'5º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'6º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'7º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'8º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;'9º Ano': '--',
+               &nbsp;&nbsp;&nbsp;&nbsp;'Total': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'Anos Iniciais': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'Anos Finais': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'1º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'2º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'3º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'4º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'5º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'6º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'7º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'8º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'9º Ano': '',
                &nbsp;&nbsp;'Ensino Médio': {
-               &nbsp;&nbsp;&nbsp;&nbsp;'Total': 26.6,
-               &nbsp;&nbsp;&nbsp;&nbsp;'1ª série': 25,
-               &nbsp;&nbsp;&nbsp;&nbsp;'2ª série': 26,
-               &nbsp;&nbsp;&nbsp;&nbsp;'3ª série': 30,
-               &nbsp;&nbsp;&nbsp;&nbsp;'4ª série': '--'}}</code>
+               &nbsp;&nbsp;&nbsp;&nbsp;'Total': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'1ª série': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'2ª série': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'3ª série': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'4ª série': ''}}</code>
                </pre>
-   * MediaHorasAulaDiarias:
+   * TaxaRendimento:
         * Número de escolas registradas: 134.457.
         * Número de escolas de Pelotas registradas: 136.
         * Quantidade de informações de cada escola: 63.
         * Estrutura dos dados inseridos no Banco de Dados (BSON):
         <pre>
          <code>'Taxa de rendimento escolar': {
-               &nbsp;&nbsp;'Última atualização': 2019.0,
+               &nbsp;&nbsp;'Última atualização': '',
                &nbsp;&nbsp;'Ensino Fundamental 8 e 9 anos': {
                &nbsp;&nbsp;&nbsp;&nbsp;'Taxa de aprovação': {
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Total': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Anos Iniciais': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Anos Finais': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'1º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'2º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'3º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'4º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'5º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'6º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'7º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'8º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&'9º Ano': '--'},
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Total': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Anos Iniciais': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Anos Finais': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'1º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'2º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'3º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'4º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'5º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'6º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'7º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'8º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&'9º Ano': ''},
                &nbsp;&nbsp;&nbsp;&nbsp;'Taxa de reprovação': {
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Total': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Anos Iniciais': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Anos Finais': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'1º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'2º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'3º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'4º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'5º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'6º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'7º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'8º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&'9º Ano': '--'}},
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Total': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Anos Iniciais': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Anos Finais': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'1º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'2º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'3º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'4º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'5º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'6º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'7º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'8º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&'9º Ano': ''}},
                &nbsp;&nbsp;&nbsp;&nbsp;'Taxa de abandono': {
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Total': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Anos Iniciais': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Anos Finais': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'1º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'2º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'3º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'4º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'5º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'6º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'7º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'8º Ano': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&'9º Ano': '--'}},
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Total': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Anos Iniciais': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Anos Finais': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'1º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'2º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'3º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'4º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'5º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'6º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'7º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'8º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&'9º Ano': ''}},
                &nbsp;&nbsp;'Ensino Médio': {
                &nbsp;&nbsp;&nbsp;&nbsp;'Taxa de aprovação': {
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Total': 26.6,
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'1ª série': 25,
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'2ª série': 26,
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'3ª série': 30,
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'4ª série': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Não-Seriado': '--'},
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Total': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'1ª série': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'2ª série': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'3ª série': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'4ª série': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Não-Seriado': ''},
                &nbsp;&nbsp;&nbsp;&nbsp;'Taxa de reprovação': {
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Total': 26.6,
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'1ª série': 25,
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'2ª série': 26,
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'3ª série': 30,
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Total': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'1ª série': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'2ª série': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'3ª série': '',
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'4ª série': '--',
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Não-Seriado': '--'},
                &nbsp;&nbsp;&nbsp;&nbsp;'Taxa de abandono': {
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Total': 26.6,
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'1ª série': 25,
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'2ª série': 26,
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'3ª série': 30,
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'4ª série': '--',
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Não-Seriado': '--'}}
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Total': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'1ª série': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'2ª série': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'3ª série': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'4ª série': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Não-Seriado': ''}}
                }</code>
+               </pre>
+   * TaxaDeNaoResposta:
+        * Número de escolas registradas: 134.457.
+        * Número de escolas de Pelotas registradas: 136.
+        * Quantidade de informações de cada escola: 27.
+        * Estrutura dos dados inseridos no Banco de Dados (BSON):
+        <pre>
+         <code>'Taxa de distorção de idade-série por turma': {
+               &nbsp;&nbsp;'Última atualização': '',
+               &nbsp;&nbsp;'Ensino Fundamental 8 e 9 anos': {
+               &nbsp;&nbsp;&nbsp;&nbsp;'Total': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'Anos Iniciais': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'Anos Finais': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'1º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'2º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'3º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'4º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'5º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'6º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'7º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'8º Ano': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'9º Ano': '',
+               &nbsp;&nbsp;'Ensino Médio': {
+               &nbsp;&nbsp;&nbsp;&nbsp;'Total': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'1ª série': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'2ª série': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'3ª série': '',
+               &nbsp;&nbsp;&nbsp;&nbsp;'4ª série': ''}}</code>
                </pre>
         
 ## Conexão com o BD:
