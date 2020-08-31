@@ -1,0 +1,8 @@
+1 - QEDU:
+1.1 - Resultado da Prova Brasil 2017, utilizado para calcular a proporção de alunos com parendizado adequado á sua etapa escolar.
+1.2 - Resultado do Censo Escolar, utilizado para mostrar os aspectos das escolas brasileiras, em especial as matrículas e infraestrutura.
+1.3 - Ideb é calculado com base no aprendizado dos alunos em português e matemática (Prova Brasil) e no fluxo escolar (taxa de aprovação). O objetivo é mostrar
+o indice de desenvolvimento das estado/município/escolas e relacionar com a méta.
+
+1.4 - O que é preciso para realizar o mesmo processo que o QEDU.
+1.4.1 - Resultados da Prova Brasil 2017, resultado do Censo Escolar e cálculo do Ideb (resultados da Prova Brasil X taxa de aprovação)
