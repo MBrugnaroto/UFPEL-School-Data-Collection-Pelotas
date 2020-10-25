@@ -308,7 +308,7 @@
        <pre>
        <code>'Indicador de complexidade de gestão da escola': {
         &nbsp;&nbsp;'Última atualização': '',
-        &nbsp;&nbsp;'Nível de complexidade de gestão da escola': ''}}</code>
+        &nbsp;&nbsp;'Nível de complexidade de gestão da escola': ''}</code>
        </pre>
   * IndicadorNivelSocioeconomico:
        <pre>
@@ -316,6 +316,20 @@
         &nbsp;&nbsp;'Última atualização': '',
         &nbsp;&nbsp;'Quantidade de Alunos com INSE': '',
         &nbsp;&nbsp;'Média do Indicador de Nível Socioeconômico dos alunos': '',
-        &nbsp;&nbsp;'Classificação do Indicador de Nível Socioeconômico': ''}}  }</code>
+        &nbsp;&nbsp;'Classificação do Indicador de Nível Socioeconômico': ''}</code>
+       </pre>
+  * ProvaBrasil2017:
+       <pre>
+       <code>'Resultado Prova Brasil': {
+        &nbsp;&nbsp;'Ano': '',
+        &nbsp;&nbsp;'Média 5º ano': '' {
+        &nbsp;&nbsp;&nbsp;&nbsp;'Língua Portuguesa': '',
+        &nbsp;&nbsp;&nbsp;&nbsp;'Matemática': ''},
+        &nbsp;&nbsp;'Média 9º ano': '' {
+        &nbsp;&nbsp;&nbsp;&nbsp;'Língua Portuguesa': '',
+        &nbsp;&nbsp;&nbsp;&nbsp;'Matemática': ''},
+        &nbsp;&nbsp;'Média 3º/4º série do ensino médio': '' {
+        &nbsp;&nbsp;&nbsp;&nbsp;'Língua Portuguesa': '',
+        &nbsp;&nbsp;&nbsp;&nbsp;'Matemática': ''}}</code>
        </pre>
      
